@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vim-helper/',
   plugins: [react(), tailwindcss()],
+  base: '/vim-helper/',
 })
