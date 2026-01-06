@@ -1,0 +1,442 @@
+[
+  {
+    "category": "Global",
+    "key": ":h[elp] keyword",
+    "combination": ":help keyword",
+    "descriptionEn": "Open help for keyword",
+    "descriptionEs": "Abrir ayuda para la palabra clave",
+    "explanation": "Opens the built-in help documentation for the given keyword."
+  },
+  {
+    "category": "Global",
+    "key": ":sav[eas] file",
+    "combination": ":saveas file",
+    "descriptionEn": "Save file as",
+    "descriptionEs": "Guardar archivo como",
+    "explanation": "Saves the current buffer to a new file with the specified name."
+  },
+  {
+    "category": "Global",
+    "key": ":clo[se]",
+    "combination": ":close",
+    "descriptionEn": "Close current pane",
+    "descriptionEs": "Cerrar panel actual",
+    "explanation": "Closes the currently active window or split pane."
+  },
+  {
+    "category": "Global",
+    "key": ":ter[minal]",
+    "combination": ":terminal",
+    "descriptionEn": "Open a terminal window",
+    "descriptionEs": "Abrir una ventana de terminal",
+    "explanation": "Opens a built-in terminal emulator within Vim."
+  },
+  {
+    "category": "Global",
+    "key": "K",
+    "combination": "Shift+k",
+    "descriptionEn": "Open man page for word under the cursor",
+    "descriptionEs": "Abrir página man para la palabra bajo el cursor",
+    "explanation": "Looks up the manual page for the keyword under the cursor."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "h",
+    "combination": "h",
+    "descriptionEn": "Move cursor left",
+    "descriptionEs": "Mover cursor a la izquierda",
+    "explanation": "Moves the cursor one character to the left."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "j",
+    "combination": "j",
+    "descriptionEn": "Move cursor down",
+    "descriptionEs": "Mover cursor hacia abajo",
+    "explanation": "Moves the cursor one line down."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "k",
+    "combination": "k",
+    "descriptionEn": "Move cursor up",
+    "descriptionEs": "Mover cursor hacia arriba",
+    "explanation": "Moves the cursor one line up."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "l",
+    "combination": "l",
+    "descriptionEn": "Move cursor right",
+    "descriptionEs": "Mover cursor a la derecha",
+    "explanation": "Moves the cursor one character to the right."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "gj",
+    "combination": "gj",
+    "descriptionEn": "Move cursor down (multi-line text)",
+    "descriptionEs": "Mover cursor hacia abajo (texto multilínea)",
+    "explanation": "Moves cursor down by display line (useful for wrapped lines)."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "gk",
+    "combination": "gk",
+    "descriptionEn": "Move cursor up (multi-line text)",
+    "descriptionEs": "Mover cursor hacia arriba (texto multilínea)",
+    "explanation": "Moves cursor up by display line (useful for wrapped lines)."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "H",
+    "combination": "Shift+h",
+    "descriptionEn": "Move to top of screen",
+    "descriptionEs": "Mover al inicio de la pantalla",
+    "explanation": "Moves cursor to the top line of the current viewport."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "M",
+    "combination": "Shift+m",
+    "descriptionEn": "Move to middle of screen",
+    "descriptionEs": "Mover a la mitad de la pantalla",
+    "explanation": "Moves cursor to the middle line of the current viewport."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "L",
+    "combination": "Shift+l",
+    "descriptionEn": "Move to bottom of screen",
+    "descriptionEs": "Mover al final de la pantalla",
+    "explanation": "Moves cursor to the bottom line of the current viewport."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "w",
+    "combination": "w",
+    "descriptionEn": "Jump forwards to the start of a word",
+    "descriptionEs": "Saltar adelante al inicio de una palabra",
+    "explanation": "Moves to the beginning of the next word."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "W",
+    "combination": "Shift+w",
+    "descriptionEn": "Jump forwards to the start of a word (words can contain punctuation)",
+    "descriptionEs": "Saltar adelante al inicio de una palabra (incluye puntuación)",
+    "explanation": "Moves to the beginning of the next WORD (bounded by whitespace)."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "e",
+    "combination": "e",
+    "descriptionEn": "Jump forwards to the end of a word",
+    "descriptionEs": "Saltar adelante al final de una palabra",
+    "explanation": "Moves to the end of the current or next word."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "E",
+    "combination": "Shift+e",
+    "descriptionEn": "Jump forwards to the end of a word (words can contain punctuation)",
+    "descriptionEs": "Saltar adelante al final de una palabra (incluye puntuación)",
+    "explanation": "Moves to the end of the current or next WORD (bounded by whitespace)."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "b",
+    "combination": "b",
+    "descriptionEn": "Jump backwards to the start of a word",
+    "descriptionEs": "Saltar atrás al inicio de una palabra",
+    "explanation": "Moves to the beginning of the previous word."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "B",
+    "combination": "Shift+b",
+    "descriptionEn": "Jump backwards to the start of a word (words can contain punctuation)",
+    "descriptionEs": "Saltar atrás al inicio de una palabra (incluye puntuación)",
+    "explanation": "Moves to the beginning of the previous WORD (bounded by whitespace)."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "%",
+    "combination": "Shift+5",
+    "descriptionEn": "Move cursor to matching character",
+    "descriptionEs": "Mover cursor al carácter coincidente",
+    "explanation": "Jumps between matching parentheses, brackets, or braces."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "0",
+    "combination": "0",
+    "descriptionEn": "Jump to the start of the line",
+    "descriptionEs": "Saltar al inicio de la línea",
+    "explanation": "Moves to the very first character of the line."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "^",
+    "combination": "Shift+6",
+    "descriptionEn": "Jump to the first non-blank character of the line",
+    "descriptionEs": "Saltar al primer carácter no vacío de la línea",
+    "explanation": "Moves to the first visible character on the line, ignoring whitespace."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "$",
+    "combination": "Shift+4",
+    "descriptionEn": "Jump to the end of the line",
+    "descriptionEs": "Saltar al final de la línea",
+    "explanation": "Moves to the last character of the line."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "gg",
+    "combination": "gg",
+    "descriptionEn": "Go to the first line of the document",
+    "descriptionEs": "Ir a la primera línea del documento",
+    "explanation": "Jumps to the very top of the file."
+  },
+  {
+    "category": "Cursor movement",
+    "key": "G",
+    "combination": "Shift+g",
+    "descriptionEn": "Go to the last line of the document",
+    "descriptionEs": "Ir a la última línea del documento",
+    "explanation": "Jumps to the very bottom of the file."
+  },
+  {
+    "category": "Insert mode",
+    "key": "i",
+    "combination": "i",
+    "descriptionEn": "Insert before the cursor",
+    "descriptionEs": "Insertar antes del cursor",
+    "explanation": "Enters insert mode before the current character."
+  },
+  {
+    "category": "Insert mode",
+    "key": "I",
+    "combination": "Shift+i",
+    "descriptionEn": "Insert at the beginning of the line",
+    "descriptionEs": "Insertar al inicio de la línea",
+    "explanation": "Enters insert mode at the first non-blank character of the line."
+  },
+  {
+    "category": "Insert mode",
+    "key": "a",
+    "combination": "a",
+    "descriptionEn": "Insert (append) after the cursor",
+    "descriptionEs": "Insertar (anexar) después del cursor",
+    "explanation": "Enters insert mode after the current character."
+  },
+  {
+    "category": "Insert mode",
+    "key": "A",
+    "combination": "Shift+a",
+    "descriptionEn": "Insert (append) at the end of the line",
+    "descriptionEs": "Insertar (anexar) al final de la línea",
+    "explanation": "Enters insert mode at the end of the current line."
+  },
+  {
+    "category": "Insert mode",
+    "key": "o",
+    "combination": "o",
+    "descriptionEn": "Append (open) a new line below",
+    "descriptionEs": "Anexar (abrir) una nueva línea abajo",
+    "explanation": "Opens a new line below the current one and enters insert mode."
+  },
+  {
+    "category": "Insert mode",
+    "key": "O",
+    "combination": "Shift+o",
+    "descriptionEn": "Append (open) a new line above",
+    "descriptionEs": "Anexar (abrir) una nueva línea arriba",
+    "explanation": "Opens a new line above the current one and enters insert mode."
+  },
+  {
+    "category": "Insert mode",
+    "key": "Esc",
+    "combination": "Esc",
+    "descriptionEn": "Exit insert mode",
+    "descriptionEs": "Salir del modo insertar",
+    "explanation": "Returns to normal mode."
+  },
+  {
+    "category": "Editing",
+    "key": "r",
+    "combination": "r",
+    "descriptionEn": "Replace a single character",
+    "descriptionEs": "Reemplazar un solo carácter",
+    "explanation": "Replaces the character under the cursor with the next keystroke."
+  },
+  {
+    "category": "Editing",
+    "key": "R",
+    "combination": "Shift+r",
+    "descriptionEn": "Replace more than one character",
+    "descriptionEs": "Reemplazar más de un carácter",
+    "explanation": "Enters replace mode, overwriting characters until Esc is pressed."
+  },
+  {
+    "category": "Editing",
+    "key": "u",
+    "combination": "u",
+    "descriptionEn": "Undo",
+    "descriptionEs": "Deshacer",
+    "explanation": "Undoes the last change."
+  },
+  {
+    "category": "Editing",
+    "key": "Ctrl + r",
+    "combination": "Ctrl+r",
+    "descriptionEn": "Redo",
+    "descriptionEs": "Rehacer",
+    "explanation": "Redoes the last undone change."
+  },
+  {
+    "category": "Marking text",
+    "key": "v",
+    "combination": "v",
+    "descriptionEn": "Start visual mode",
+    "descriptionEs": "Iniciar modo visual",
+    "explanation": "Selects text character by character."
+  },
+  {
+    "category": "Marking text",
+    "key": "V",
+    "combination": "Shift+v",
+    "descriptionEn": "Start linewise visual mode",
+    "descriptionEs": "Iniciar modo visual por líneas",
+    "explanation": "Selects text line by line."
+  },
+  {
+    "category": "Marking text",
+    "key": "Ctrl + v",
+    "combination": "Ctrl+v",
+    "descriptionEn": "Start visual block mode",
+    "descriptionEs": "Iniciar modo bloque visual",
+    "explanation": "Selects text in a rectangular block."
+  },
+  {
+    "category": "Visual commands",
+    "key": ">",
+    "combination": "Shift+.",
+    "descriptionEn": "Shift text right",
+    "descriptionEs": "Desplazar texto a la derecha",
+    "explanation": "Indents the selected text."
+  },
+  {
+    "category": "Visual commands",
+    "key": "<",
+    "combination": "Shift+,",
+    "descriptionEn": "Shift text left",
+    "descriptionEs": "Desplazar texto a la izquierda",
+    "explanation": "De-indents the selected text."
+  },
+  {
+    "category": "Visual commands",
+    "key": "y",
+    "combination": "y",
+    "descriptionEn": "Yank (copy) marked text",
+    "descriptionEs": "Copiar texto marcado",
+    "explanation": "Copies the selection to the register."
+  },
+  {
+    "category": "Visual commands",
+    "key": "d",
+    "combination": "d",
+    "descriptionEn": "Delete marked text",
+    "descriptionEs": "Borrar texto marcado",
+    "explanation": "Deletes (cuts) the selection."
+  },
+  {
+    "category": "Cut and paste",
+    "key": "yy",
+    "combination": "yy",
+    "descriptionEn": "Yank (copy) a line",
+    "descriptionEs": "Copiar una línea",
+    "explanation": "Copies the entire current line."
+  },
+  {
+    "category": "Cut and paste",
+    "key": "p",
+    "combination": "p",
+    "descriptionEn": "Put (paste) after cursor",
+    "descriptionEs": "Pegar después del cursor",
+    "explanation": "Pastes content from the register after the cursor."
+  },
+  {
+    "category": "Cut and paste",
+    "key": "P",
+    "combination": "Shift+p",
+    "descriptionEn": "Put (paste) before cursor",
+    "descriptionEs": "Pegar antes del cursor",
+    "explanation": "Pastes content from the register before the cursor."
+  },
+  {
+    "category": "Cut and paste",
+    "key": "dd",
+    "combination": "dd",
+    "descriptionEn": "Delete (cut) a line",
+    "descriptionEs": "Borrar (cortar) una línea",
+    "explanation": "Deletes the entire current line."
+  },
+  {
+    "category": "Search and replace",
+    "key": "/pattern",
+    "combination": "/ + pattern",
+    "descriptionEn": "Search for pattern",
+    "descriptionEs": "Buscar patrón",
+    "explanation": "Search forward for the specified string or regex."
+  },
+  {
+    "category": "Search and replace",
+    "key": "?pattern",
+    "combination": "? + pattern",
+    "descriptionEn": "Search backward for pattern",
+    "descriptionEs": "Buscar patrón hacia atrás",
+    "explanation": "Search backward for the specified string or regex."
+  },
+  {
+    "category": "Search and replace",
+    "key": "n",
+    "combination": "n",
+    "descriptionEn": "Repeat search in same direction",
+    "descriptionEs": "Repetir búsqueda en la misma dirección",
+    "explanation": "Jumps to the next occurrence of the search pattern."
+  },
+  {
+    "category": "Search and replace",
+    "key": "N",
+    "combination": "Shift+n",
+    "descriptionEn": "Repeat search in opposite direction",
+    "descriptionEs": "Repetir búsqueda en dirección opuesta",
+    "explanation": "Jumps to the previous occurrence of the search pattern."
+  },
+  {
+    "category": "Exiting",
+    "key": ":w",
+    "combination": ":w",
+    "descriptionEn": "Write (save) the file",
+    "descriptionEs": "Escribir (guardar) el archivo",
+    "explanation": "Saves changes to the file."
+  },
+  {
+    "category": "Exiting",
+    "key": ":wq",
+    "combination": ":wq",
+    "descriptionEn": "Write (save) and quit",
+    "descriptionEs": "Guardar y salir",
+    "explanation": "Saves the file and closes the window."
+  },
+  {
+    "category": "Exiting",
+    "key": ":q!",
+    "combination": ":q!",
+    "descriptionEn": "Quit without saving",
+    "descriptionEs": "Salir sin guardar",
+    "explanation": "Discards changes and closes the window."
+  }
+]
