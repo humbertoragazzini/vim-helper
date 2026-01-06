@@ -590,6 +590,79 @@
     "descriptionEn": "Show hover information via Coc",
     "descriptionEs": "Mostrar información emergente con Coc",
     "explanation": "Calls CocActionAsync('doHover') to show LSP hover information (type, documentation) for the symbol under the cursor, overriding the default man-page K behavior."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<C-n>",
+    "combination": "Ctrl+n",
+    "descriptionEn": "Add cursor / select next occurrence",
+    "descriptionEs": "Añadir cursor / seleccionar siguiente coincidencia",
+    "explanation": "Starts visual-multi: adds a cursor on the word under the cursor. Press again to add cursors on the next occurrences of the same word."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<C-Down>",
+    "combination": "Ctrl+Down",
+    "descriptionEn": "Add cursors downward",
+    "descriptionEs": "Añadir cursores hacia abajo",
+    "explanation": "Starts adding new cursors on the lines below, skipping empty lines, letting you edit multiple lines at once."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<C-Up>",
+    "combination": "Ctrl+Up",
+    "descriptionEn": "Add cursors upward",
+    "descriptionEs": "Añadir cursores hacia arriba",
+    "explanation": "Starts adding new cursors on the lines above, skipping empty lines, for multi-line editing."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<S-Right>",
+    "combination": "Shift+Right",
+    "descriptionEn": "Start multi-cursor selection to the right",
+    "descriptionEs": "Iniciar selección multicursor hacia la derecha",
+    "explanation": "Begins selecting text to the right with multiple cursors, similar to extending a selection horizontally."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<S-Left>",
+    "combination": "Shift+Left",
+    "descriptionEn": "Start multi-cursor selection to the left",
+    "descriptionEs": "Iniciar selección multicursor hacia la izquierda",
+    "explanation": "Begins selecting text to the left with multiple cursors, useful for editing columns of text."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "\\\\A",
+    "combination": "VM leader (\\\\) + A",
+    "descriptionEn": "Select all occurrences in file",
+    "descriptionEs": "Seleccionar todas las ocurrencias en el archivo",
+    "explanation": "Uses vim-visual-multi’s leader key (by default \\\\) and A to select all occurrences of the current word in the entire file."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "\\\\/ ",
+    "combination": "VM leader (\\\\) + /",
+    "descriptionEn": "Start regex multi-cursor search",
+    "descriptionEs": "Iniciar búsqueda regex con multicursor",
+    "explanation": "Starts a visual-multi regex search so you can place cursors on matches of a pattern."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "\\\\\\",
+    "combination": "VM leader (\\\\) + \\\\",
+    "descriptionEn": "Add cursor at current position",
+    "descriptionEs": "Añadir cursor en la posición actual",
+    "explanation": "Places an additional cursor at the current position without selecting a word, giving fine-grained multi-cursor control."
+  },
+  {
+    "category": "Multiple cursors (vim-visual-multi)",
+    "key": "<C-n> (visual mode)",
+    "combination": "Ctrl+n (visual mode)",
+    "descriptionEn": "Add visual selection as multi-cursor region",
+    "descriptionEs": "Añadir selección visual como región multicursor",
+    "explanation": "In visual mode, turns the current selection into a multi-cursor region and lets you jump to other occurrences."
   }
 ]
+
 
