@@ -438,5 +438,158 @@
     "descriptionEn": "Quit without saving",
     "descriptionEs": "Salir sin guardar",
     "explanation": "Discards changes and closes the window."
+  },
+   {
+    "category": "Window management",
+    "key": "<C-A-k>",
+    "combination": "Ctrl+Alt+k",
+    "descriptionEn": "Increase current window height",
+    "descriptionEs": "Aumentar la altura de la ventana actual",
+    "explanation": "Resizes the current split window, increasing its height by one line."
+  },
+  {
+    "category": "Window management",
+    "key": "<C-A-j>",
+    "combination": "Ctrl+Alt+j",
+    "descriptionEn": "Decrease current window height",
+    "descriptionEs": "Disminuir la altura de la ventana actual",
+    "explanation": "Resizes the current split window, decreasing its height by one line."
+  },
+  {
+    "category": "Window management",
+    "key": "<C-A-h>",
+    "combination": "Ctrl+Alt+h",
+    "descriptionEn": "Increase current window width",
+    "descriptionEs": "Aumentar el ancho de la ventana actual",
+    "explanation": "Resizes the current split window, increasing its width by one column."
+  },
+  {
+    "category": "Window management",
+    "key": "<C-A-l>",
+    "combination": "Ctrl+Alt+l",
+    "descriptionEn": "Decrease current window width",
+    "descriptionEs": "Disminuir el ancho de la ventana actual",
+    "explanation": "Resizes the current split window, decreasing its width by one column."
+  },
+  {
+    "category": "Window management",
+    "key": "<C-w>w",
+    "combination": "Ctrl+w then w",
+    "descriptionEn": "Start window command (remapped)",
+    "descriptionEs": "Iniciar comando de ventana (remapeado)",
+    "explanation": "Maps Ctrl+w then w to just Ctrl+w, effectively starting a window command and waiting for the next key (h/j/k/l, etc.)."
+  },
+  {
+    "category": "Insert mode movement",
+    "key": "<C-h>",
+    "combination": "Ctrl+h (insert mode)",
+    "descriptionEn": "Move cursor left in insert mode",
+    "descriptionEs": "Mover el cursor a la izquierda en modo inserción",
+    "explanation": "Moves the cursor one character to the left without leaving insert mode."
+  },
+  {
+    "category": "Insert mode movement",
+    "key": "<C-l>",
+    "combination": "Ctrl+l (insert mode)",
+    "descriptionEn": "Move cursor right in insert mode",
+    "descriptionEs": "Mover el cursor a la derecha en modo inserción",
+    "explanation": "Moves the cursor one character to the right without leaving insert mode."
+  },
+  {
+    "category": "Insert mode movement",
+    "key": "<C-j>",
+    "combination": "Ctrl+j (insert mode)",
+    "descriptionEn": "Move cursor down in insert mode",
+    "descriptionEs": "Mover el cursor hacia abajo en modo inserción",
+    "explanation": "Moves the cursor one line down without leaving insert mode."
+  },
+  {
+    "category": "Insert mode movement",
+    "key": "<C-k>",
+    "combination": "Ctrl+k (insert mode)",
+    "descriptionEn": "Move cursor up in insert mode",
+    "descriptionEs": "Mover el cursor hacia arriba en modo inserción",
+    "explanation": "Moves the cursor one line up without leaving insert mode."
+  },
+  {
+    "category": "Saving and exiting",
+    "key": "<C-s>",
+    "combination": "Ctrl+s (normal mode)",
+    "descriptionEn": "Save file (normal mode)",
+    "descriptionEs": "Guardar archivo (modo normal)",
+    "explanation": "Writes the current buffer to disk, equivalent to :w."
+  },
+  {
+    "category": "Saving and exiting",
+    "key": "<C-s>",
+    "combination": "Ctrl+s (insert mode)",
+    "descriptionEn": "Save file (insert mode)",
+    "descriptionEs": "Guardar archivo (modo inserción)",
+    "explanation": "Temporarily leaves insert mode, saves the file with :w, and returns to insert mode."
+  },
+  {
+    "category": "Saving and exiting",
+    "key": "<C-q>",
+    "combination": "Ctrl+q (normal mode)",
+    "descriptionEn": "Quit current window (normal mode)",
+    "descriptionEs": "Salir de la ventana actual (modo normal)",
+    "explanation": "Quits the current window, equivalent to :q."
+  },
+  {
+    "category": "Saving and exiting",
+    "key": "<C-q>",
+    "combination": "Ctrl+q (insert mode)",
+    "descriptionEn": "Quit current window (insert mode)",
+    "descriptionEs": "Salir de la ventana actual (modo inserción)",
+    "explanation": "Temporarily leaves insert mode, quits the window with :q, and returns to insert mode (though the window is closed)."
+  },
+  {
+    "category": "Completion",
+    "key": "<Tab>",
+    "combination": "Tab (insert mode, completion menu visible)",
+    "descriptionEn": "Next completion item",
+    "descriptionEs": "Siguiente elemento de autocompletado",
+    "explanation": "When the popup completion menu is visible, moves to the next suggestion; otherwise inserts a Tab character."
+  },
+  {
+    "category": "Completion",
+    "key": "<S-Tab>",
+    "combination": "Shift+Tab (insert mode, completion menu visible)",
+    "descriptionEn": "Previous completion item",
+    "descriptionEs": "Elemento anterior de autocompletado",
+    "explanation": "When the popup completion menu is visible, moves to the previous suggestion; otherwise inserts Shift+Tab."
+  },
+  {
+    "category": "Completion",
+    "key": "<CR>",
+    "combination": "Enter (insert mode, completion menu visible)",
+    "descriptionEn": "Confirm completion",
+    "descriptionEs": "Confirmar autocompletado",
+    "explanation": "When the popup completion menu is visible, accepts the selected suggestion; otherwise inserts a normal newline."
+  },
+  {
+    "category": "NERDTree",
+    "key": "<C-A-n>",
+    "combination": "Ctrl+Alt+n",
+    "descriptionEn": "Toggle NERDTree",
+    "descriptionEs": "Mostrar/ocultar NERDTree",
+    "explanation": "Opens or closes the NERDTree file explorer."
+  },
+  {
+    "category": "NERDTree",
+    "key": "<S-F2>",
+    "combination": "Shift+F2",
+    "descriptionEn": "Toggle NERDTree",
+    "descriptionEs": "Mostrar/ocultar NERDTree",
+    "explanation": "Another shortcut to open or close the NERDTree file explorer."
+  },
+  {
+    "category": "Coc.nvim",
+    "key": "K",
+    "combination": "Shift+k (normal mode)",
+    "descriptionEn": "Show hover information via Coc",
+    "descriptionEs": "Mostrar información emergente con Coc",
+    "explanation": "Calls CocActionAsync('doHover') to show LSP hover information (type, documentation) for the symbol under the cursor, overriding the default man-page K behavior."
   }
 ]
+
