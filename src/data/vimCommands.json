@@ -317,6 +317,69 @@
   {
     "category": "Editing",
     "source": "Native Vim",
+    "key": "D",
+    "combination": "Shift+d",
+    "descriptionEn": "Delete text from cursor to end of line",
+    "descriptionEs": "Borrar texto desde el cursor hasta el final de la línea",
+    "explanation": "Deletes all characters from the cursor position to the end of the line (equivalent to d$)."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": "C",
+    "combination": "Shift+c",
+    "descriptionEn": "Change text from cursor to end of line",
+    "descriptionEs": "Cambiar texto desde el cursor hasta el final de la línea",
+    "explanation": "Deletes from cursor to the end of line and enters insert mode (equivalent to c$)."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": "x",
+    "combination": "x",
+    "descriptionEn": "Delete character under cursor",
+    "descriptionEs": "Borrar carácter bajo el cursor",
+    "explanation": "Deletes the single character under the cursor (equivalent to dl)."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": "X",
+    "combination": "Shift+x",
+    "descriptionEn": "Delete character before cursor",
+    "descriptionEs": "Borrar carácter antes del cursor",
+    "explanation": "Deletes the character directly before the cursor (equivalent to dh)."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": "J",
+    "combination": "Shift+j",
+    "descriptionEn": "Join line below with current line",
+    "descriptionEs": "Unir línea de abajo con la línea actual",
+    "explanation": "Joins the line below into the current line with a single space separator."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": ".",
+    "combination": ".",
+    "descriptionEn": "Repeat last change",
+    "descriptionEs": "Repetir el último cambio",
+    "explanation": "Repeats the last editing action performed."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
+    "key": "~",
+    "combination": "Shift+`",
+    "descriptionEn": "Switch case of character",
+    "descriptionEs": "Cambiar mayúscula/minúscula del carácter",
+    "explanation": "Toggles uppercase/lowercase for character under cursor."
+  },
+  {
+    "category": "Editing",
+    "source": "Native Vim",
     "key": "u",
     "combination": "u",
     "descriptionEn": "Undo",
