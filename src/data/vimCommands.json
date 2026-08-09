@@ -1,6 +1,7 @@
 [
   {
     "category": "Global",
+    "source": "Native Vim",
     "key": ":h[elp] keyword",
     "combination": ":help keyword",
     "descriptionEn": "Open help for keyword",
@@ -9,6 +10,7 @@
   },
   {
     "category": "Global",
+    "source": "Native Vim",
     "key": ":sav[eas] file",
     "combination": ":saveas file",
     "descriptionEn": "Save file as",
@@ -17,6 +19,7 @@
   },
   {
     "category": "Global",
+    "source": "Native Vim",
     "key": ":clo[se]",
     "combination": ":close",
     "descriptionEn": "Close current pane",
@@ -25,6 +28,7 @@
   },
   {
     "category": "Global",
+    "source": "Native Vim",
     "key": ":ter[minal]",
     "combination": ":terminal",
     "descriptionEn": "Open a terminal window",
@@ -33,6 +37,7 @@
   },
   {
     "category": "Global",
+    "source": "Native Vim",
     "key": "K",
     "combination": "Shift+k",
     "descriptionEn": "Open man page for word under the cursor",
@@ -41,6 +46,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "h",
     "combination": "h",
     "descriptionEn": "Move cursor left",
@@ -49,6 +55,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "j",
     "combination": "j",
     "descriptionEn": "Move cursor down",
@@ -57,6 +64,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "k",
     "combination": "k",
     "descriptionEn": "Move cursor up",
@@ -65,6 +73,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "l",
     "combination": "l",
     "descriptionEn": "Move cursor right",
@@ -73,6 +82,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "gj",
     "combination": "gj",
     "descriptionEn": "Move cursor down (multi-line text)",
@@ -81,6 +91,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "gk",
     "combination": "gk",
     "descriptionEn": "Move cursor up (multi-line text)",
@@ -89,6 +100,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "H",
     "combination": "Shift+h",
     "descriptionEn": "Move to top of screen",
@@ -97,6 +109,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "M",
     "combination": "Shift+m",
     "descriptionEn": "Move to middle of screen",
@@ -105,6 +118,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "L",
     "combination": "Shift+l",
     "descriptionEn": "Move to bottom of screen",
@@ -113,6 +127,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "w",
     "combination": "w",
     "descriptionEn": "Jump forwards to the start of a word",
@@ -121,6 +136,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "W",
     "combination": "Shift+w",
     "descriptionEn": "Jump forwards to the start of a word (words can contain punctuation)",
@@ -129,6 +145,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "e",
     "combination": "e",
     "descriptionEn": "Jump forwards to the end of a word",
@@ -137,6 +154,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "E",
     "combination": "Shift+e",
     "descriptionEn": "Jump forwards to the end of a word (words can contain punctuation)",
@@ -145,6 +163,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "b",
     "combination": "b",
     "descriptionEn": "Jump backwards to the start of a word",
@@ -153,6 +172,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "B",
     "combination": "Shift+b",
     "descriptionEn": "Jump backwards to the start of a word (words can contain punctuation)",
@@ -161,6 +181,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "%",
     "combination": "Shift+5",
     "descriptionEn": "Move cursor to matching character",
@@ -169,6 +190,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "0",
     "combination": "0",
     "descriptionEn": "Jump to the start of the line",
@@ -177,6 +199,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "^",
     "combination": "Shift+6",
     "descriptionEn": "Jump to the first non-blank character of the line",
@@ -185,6 +208,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "$",
     "combination": "Shift+4",
     "descriptionEn": "Jump to the end of the line",
@@ -193,6 +217,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "gg",
     "combination": "gg",
     "descriptionEn": "Go to the first line of the document",
@@ -201,6 +226,7 @@
   },
   {
     "category": "Cursor movement",
+    "source": "Native Vim",
     "key": "G",
     "combination": "Shift+g",
     "descriptionEn": "Go to the last line of the document",
@@ -209,6 +235,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "i",
     "combination": "i",
     "descriptionEn": "Insert before the cursor",
@@ -217,6 +244,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "I",
     "combination": "Shift+i",
     "descriptionEn": "Insert at the beginning of the line",
@@ -225,6 +253,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "a",
     "combination": "a",
     "descriptionEn": "Insert (append) after the cursor",
@@ -233,6 +262,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "A",
     "combination": "Shift+a",
     "descriptionEn": "Insert (append) at the end of the line",
@@ -241,6 +271,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "o",
     "combination": "o",
     "descriptionEn": "Append (open) a new line below",
@@ -249,6 +280,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "O",
     "combination": "Shift+o",
     "descriptionEn": "Append (open) a new line above",
@@ -257,6 +289,7 @@
   },
   {
     "category": "Insert mode",
+    "source": "Native Vim",
     "key": "Esc",
     "combination": "Esc",
     "descriptionEn": "Exit insert mode",
@@ -265,6 +298,7 @@
   },
   {
     "category": "Editing",
+    "source": "Native Vim",
     "key": "r",
     "combination": "r",
     "descriptionEn": "Replace a single character",
@@ -273,6 +307,7 @@
   },
   {
     "category": "Editing",
+    "source": "Native Vim",
     "key": "R",
     "combination": "Shift+r",
     "descriptionEn": "Replace more than one character",
@@ -281,6 +316,7 @@
   },
   {
     "category": "Editing",
+    "source": "Native Vim",
     "key": "u",
     "combination": "u",
     "descriptionEn": "Undo",
@@ -289,6 +325,7 @@
   },
   {
     "category": "Editing",
+    "source": "Native Vim",
     "key": "Ctrl + r",
     "combination": "Ctrl+r",
     "descriptionEn": "Redo",
@@ -297,6 +334,7 @@
   },
   {
     "category": "Marking text",
+    "source": "Native Vim",
     "key": "v",
     "combination": "v",
     "descriptionEn": "Start visual mode",
@@ -305,6 +343,7 @@
   },
   {
     "category": "Marking text",
+    "source": "Native Vim",
     "key": "V",
     "combination": "Shift+v",
     "descriptionEn": "Start linewise visual mode",
@@ -313,6 +352,7 @@
   },
   {
     "category": "Marking text",
+    "source": "Native Vim",
     "key": "Ctrl + v",
     "combination": "Ctrl+v",
     "descriptionEn": "Start visual block mode",
@@ -321,6 +361,7 @@
   },
   {
     "category": "Visual commands",
+    "source": "Native Vim",
     "key": ">",
     "combination": "Shift+.",
     "descriptionEn": "Shift text right",
@@ -329,6 +370,7 @@
   },
   {
     "category": "Visual commands",
+    "source": "Native Vim",
     "key": "<",
     "combination": "Shift+,",
     "descriptionEn": "Shift text left",
@@ -337,6 +379,7 @@
   },
   {
     "category": "Visual commands",
+    "source": "Native Vim",
     "key": "y",
     "combination": "y",
     "descriptionEn": "Yank (copy) marked text",
@@ -345,6 +388,7 @@
   },
   {
     "category": "Visual commands",
+    "source": "Native Vim",
     "key": "d",
     "combination": "d",
     "descriptionEn": "Delete marked text",
@@ -353,6 +397,7 @@
   },
   {
     "category": "Cut and paste",
+    "source": "Native Vim",
     "key": "yy",
     "combination": "yy",
     "descriptionEn": "Yank (copy) a line",
@@ -361,6 +406,7 @@
   },
   {
     "category": "Cut and paste",
+    "source": "Native Vim",
     "key": "p",
     "combination": "p",
     "descriptionEn": "Put (paste) after cursor",
@@ -369,6 +415,7 @@
   },
   {
     "category": "Cut and paste",
+    "source": "Native Vim",
     "key": "P",
     "combination": "Shift+p",
     "descriptionEn": "Put (paste) before cursor",
@@ -377,6 +424,7 @@
   },
   {
     "category": "Cut and paste",
+    "source": "Native Vim",
     "key": "dd",
     "combination": "dd",
     "descriptionEn": "Delete (cut) a line",
@@ -385,6 +433,7 @@
   },
   {
     "category": "Search and replace",
+    "source": "Native Vim",
     "key": "/pattern",
     "combination": "/ + pattern",
     "descriptionEn": "Search for pattern",
@@ -393,6 +442,7 @@
   },
   {
     "category": "Search and replace",
+    "source": "Native Vim",
     "key": "?pattern",
     "combination": "? + pattern",
     "descriptionEn": "Search backward for pattern",
@@ -401,6 +451,7 @@
   },
   {
     "category": "Search and replace",
+    "source": "Native Vim",
     "key": "n",
     "combination": "n",
     "descriptionEn": "Repeat search in same direction",
@@ -409,6 +460,7 @@
   },
   {
     "category": "Search and replace",
+    "source": "Native Vim",
     "key": "N",
     "combination": "Shift+n",
     "descriptionEn": "Repeat search in opposite direction",
@@ -417,6 +469,7 @@
   },
   {
     "category": "Exiting",
+    "source": "Native Vim",
     "key": ":w",
     "combination": ":w",
     "descriptionEn": "Write (save) the file",
@@ -425,6 +478,7 @@
   },
   {
     "category": "Exiting",
+    "source": "Native Vim",
     "key": ":wq",
     "combination": ":wq",
     "descriptionEn": "Write (save) and quit",
@@ -433,14 +487,16 @@
   },
   {
     "category": "Exiting",
+    "source": "Native Vim",
     "key": ":q!",
     "combination": ":q!",
     "descriptionEn": "Quit without saving",
     "descriptionEs": "Salir sin guardar",
     "explanation": "Discards changes and closes the window."
   },
-   {
+  {
     "category": "Window management",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-A-k>",
     "combination": "Ctrl+Alt+k",
     "descriptionEn": "Increase current window height",
@@ -449,6 +505,7 @@
   },
   {
     "category": "Window management",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-A-j>",
     "combination": "Ctrl+Alt+j",
     "descriptionEn": "Decrease current window height",
@@ -457,6 +514,7 @@
   },
   {
     "category": "Window management",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-A-h>",
     "combination": "Ctrl+Alt+h",
     "descriptionEn": "Increase current window width",
@@ -465,6 +523,7 @@
   },
   {
     "category": "Window management",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-A-l>",
     "combination": "Ctrl+Alt+l",
     "descriptionEn": "Decrease current window width",
@@ -473,6 +532,7 @@
   },
   {
     "category": "Window management",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-w>w",
     "combination": "Ctrl+w then w",
     "descriptionEn": "Start window command (remapped)",
@@ -481,6 +541,7 @@
   },
   {
     "category": "Insert mode movement",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-h>",
     "combination": "Ctrl+h (insert mode)",
     "descriptionEn": "Move cursor left in insert mode",
@@ -489,6 +550,7 @@
   },
   {
     "category": "Insert mode movement",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-l>",
     "combination": "Ctrl+l (insert mode)",
     "descriptionEn": "Move cursor right in insert mode",
@@ -497,6 +559,7 @@
   },
   {
     "category": "Insert mode movement",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-j>",
     "combination": "Ctrl+j (insert mode)",
     "descriptionEn": "Move cursor down in insert mode",
@@ -505,6 +568,7 @@
   },
   {
     "category": "Insert mode movement",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-k>",
     "combination": "Ctrl+k (insert mode)",
     "descriptionEn": "Move cursor up in insert mode",
@@ -513,6 +577,7 @@
   },
   {
     "category": "Saving and exiting",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-s>",
     "combination": "Ctrl+s (normal mode)",
     "descriptionEn": "Save file (normal mode)",
@@ -521,6 +586,7 @@
   },
   {
     "category": "Saving and exiting",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-s>",
     "combination": "Ctrl+s (insert mode)",
     "descriptionEn": "Save file (insert mode)",
@@ -529,6 +595,7 @@
   },
   {
     "category": "Saving and exiting",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-q>",
     "combination": "Ctrl+q (normal mode)",
     "descriptionEn": "Quit current window (normal mode)",
@@ -537,6 +604,7 @@
   },
   {
     "category": "Saving and exiting",
+    "source": "Custom Mapping (.vimrc)",
     "key": "<C-q>",
     "combination": "Ctrl+q (insert mode)",
     "descriptionEn": "Quit current window (insert mode)",
@@ -545,6 +613,7 @@
   },
   {
     "category": "Completion",
+    "source": "Plugin: Coc.nvim",
     "key": "<Tab>",
     "combination": "Tab (insert mode, completion menu visible)",
     "descriptionEn": "Next completion item",
@@ -553,6 +622,7 @@
   },
   {
     "category": "Completion",
+    "source": "Plugin: Coc.nvim",
     "key": "<S-Tab>",
     "combination": "Shift+Tab (insert mode, completion menu visible)",
     "descriptionEn": "Previous completion item",
@@ -561,6 +631,7 @@
   },
   {
     "category": "Completion",
+    "source": "Plugin: Coc.nvim",
     "key": "<CR>",
     "combination": "Enter (insert mode, completion menu visible)",
     "descriptionEn": "Confirm completion",
@@ -569,6 +640,7 @@
   },
   {
     "category": "NERDTree",
+    "source": "Plugin: NERDTree",
     "key": "<C-A-n>",
     "combination": "Ctrl+Alt+n",
     "descriptionEn": "Toggle NERDTree",
@@ -577,6 +649,7 @@
   },
   {
     "category": "NERDTree",
+    "source": "Plugin: NERDTree",
     "key": "<S-F2>",
     "combination": "Shift+F2",
     "descriptionEn": "Toggle NERDTree",
@@ -585,6 +658,7 @@
   },
   {
     "category": "Coc.nvim",
+    "source": "Plugin: Coc.nvim",
     "key": "K",
     "combination": "Shift+k (normal mode)",
     "descriptionEn": "Show hover information via Coc",
@@ -593,6 +667,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<C-n>",
     "combination": "Ctrl+n",
     "descriptionEn": "Add cursor / select next occurrence",
@@ -601,6 +676,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<C-Down>",
     "combination": "Ctrl+Down",
     "descriptionEn": "Add cursors downward",
@@ -609,6 +685,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<C-Up>",
     "combination": "Ctrl+Up",
     "descriptionEn": "Add cursors upward",
@@ -617,6 +694,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<S-Right>",
     "combination": "Shift+Right",
     "descriptionEn": "Start multi-cursor selection to the right",
@@ -625,6 +703,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<S-Left>",
     "combination": "Shift+Left",
     "descriptionEn": "Start multi-cursor selection to the left",
@@ -633,6 +712,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "\\\\A",
     "combination": "VM leader (\\\\) + A",
     "descriptionEn": "Select all occurrences in file",
@@ -641,6 +721,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "\\\\/ ",
     "combination": "VM leader (\\\\) + /",
     "descriptionEn": "Start regex multi-cursor search",
@@ -649,6 +730,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "\\\\\\",
     "combination": "VM leader (\\\\) + \\\\",
     "descriptionEn": "Add cursor at current position",
@@ -657,6 +739,7 @@
   },
   {
     "category": "Multiple cursors (vim-visual-multi)",
+    "source": "Plugin: vim-visual-multi",
     "key": "<C-n> (visual mode)",
     "combination": "Ctrl+n (visual mode)",
     "descriptionEn": "Add visual selection as multi-cursor region",
@@ -664,5 +747,3 @@
     "explanation": "In visual mode, turns the current selection into a multi-cursor region and lets you jump to other occurrences."
   }
 ]
-
-
